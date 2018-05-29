@@ -1,15 +1,37 @@
 {
-    "name": "acquia/blt-project",
-    "description": "Project template for Drupal 8 sites built with BLT.",
+    "name": "acquia-pso/newell",
+    "description": "Newell ACSF project with Acquia BLT.",
     "type": "project",
     "minimum-stability": "dev",
+    "repositories": {
+      "drupal": {
+        "type": "composer",
+        "url": "https://packages.drupal.org/8"
+      },
+      "asset-packagist": {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+      }
+    },
     "prefer-stable": true,
     "require": {
-        "acquia/blt": "^9.0.3",
-        "consolidation/robo": "~1.2.4"
+        "acquia/blt": "9.x-dev",
+        "drupal/acquia_search": "^1.14",
+        "drupal/acsf": "^2.48",
+        "drupal/admin_toolbar": "~1.0",
+        "drupal/adminimal_admin_toolbar": "^1.0",
+        "drupal/config_ignore": "^2.1",
+        "drupal/environment_indicator": "^3",
+        "drupal/field_group": "^1.0@RC",
+        "drupal/google_analytics": "^2.2",
+        "drupal/metatag": "^1.5",
+        "drupal/paragraphs": "^1.0",
+        "drupal/simplesamlphp_auth": "^3.0",
+        "drupal/xmlsitemap": "^1.0@alpha"
     },
     "require-dev": {
-        "geerlingguy/drupal-vm": "^4.8"
+        "geerlingguy/drupal-vm": "^4.8",
+        "drupal/console": "^1.0.0-rc13"
     },
     "extra": {
         "enable-patching": true,
@@ -17,6 +39,11 @@
             "bower-asset",
             "npm-asset"
         ],
+        "drupal-scaffold": {
+          "excludes": [
+            ".htaccess"
+          ]
+        },
         "installer-paths": {
             "docroot/core": [
                 "type:drupal-core"
@@ -59,5 +86,8 @@
             "replace": false,
             "ignore-duplicates": true
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }

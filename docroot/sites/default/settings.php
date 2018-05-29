@@ -787,3 +787,9 @@ $settings['entity_update_batch_size'] = 50;
 # }
 require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
 $settings['install_profile'] = 'lightning';
+
+
+/**
+ * Environment Specific Customizations based on the Environment Indicator
+ */
+require DRUPAL_ROOT . "/sites/default/settings/environment.settings.php";
