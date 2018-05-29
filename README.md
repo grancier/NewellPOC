@@ -1,4 +1,4 @@
-# My Project
+# Newell
 
 ACSF project for Newell Brands
 
@@ -16,7 +16,7 @@ This project is based on BLT, an open-source project template and tool that enab
     * [Setup Acquia Cloud SSH Keys](https://docs.acquia.com/acquia-cloud/ssh/generate)
 * Clone your forked repository. By default, Git names this "origin" on your local.
 ```
-$ git clone git@github.com:acquia-pso/Newell.git
+$ git clone git@github.com:<your account>/Newell.git
 ```
 * To ensure that upstream changes to the parent repository may be tracked, add the upstream locally as well.
 ```
