@@ -1,7 +1,7 @@
 project:
   machine_name: newell
   prefix: NS
-  human_name: 'Newell'
+  human_name: Newell
   profile:
     name: lightning
   local:
