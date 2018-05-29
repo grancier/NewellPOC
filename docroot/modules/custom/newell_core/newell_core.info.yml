@@ -1,0 +1,6 @@
+name: 'Newell Core'
+description: 'Core functionality for Newell.'
+type: module
+core: 8.x
+dependencies:
+package: 'Newell'
