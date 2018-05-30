@@ -11,6 +11,60 @@
       "asset-packagist": {
         "type": "composer",
         "url": "https://asset-packagist.org"
+      },
+      "mmenu": {
+        "type": "package",
+        "package": {
+          "name": "mmenu/mmenu",
+          "version": "6.1.0",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "mmenu"
+          },
+          "dist": {
+            "url": "https://api.github.com/repos/FrDH/jQuery.mmenu/zipball",
+            "type": "zip"
+          },
+          "require": {
+            "composer/installers": "~1.0"
+          }
+        }
+      },
+      "superfish": {
+        "type": "package",
+        "package": {
+          "name": "superfish/superfish",
+          "version": "1.7.0",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "superfish"
+          },
+          "dist": {
+            "url": "https://api.github.com/repos/joeldbirch/superfish/zipball",
+            "type": "zip"
+          },
+          "require": {
+            "composer/installers": "~1.0"
+          }
+        }
+      },
+      "hammerjs": {
+        "type": "package",
+        "package": {
+          "name": "hammerjs/hammerjs",
+          "version": "2.0.7",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "hammerjs"
+          },
+          "dist": {
+            "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball",
+            "type": "zip"
+          },
+          "require": {
+            "composer/installers": "~1.0"
+          }
+        }
       }
     },
     "prefer-stable": true,
@@ -26,8 +80,12 @@
         "drupal/google_analytics": "^2.2",
         "drupal/metatag": "^1.5",
         "drupal/paragraphs": "^1.0",
+        "drupal/responsive_menu": "^2.6",
         "drupal/simplesamlphp_auth": "^3.0",
-        "drupal/xmlsitemap": "^1.0@alpha"
+        "drupal/xmlsitemap": "^1.0@alpha",
+        "hammerjs/hammerjs": "2.0.7",
+        "mmenu/mmenu": "6.1.0",
+        "superfish/superfish": "1.7.0"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "^4.8",
