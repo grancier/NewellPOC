@@ -1,0 +1,33 @@
+dev:
+  host: staging-29767.prod.hosting.acquia.com
+  options:
+    ac-env: dev
+    ac-realm: prod
+    ac-site: newellace
+  paths:
+    drush-script: drush9
+  root: /var/www/html/newellace.dev/docroot
+  uri: newellacedev.prod.acquia-sites.com
+  user: newellace.dev
+test:
+  host: staging-29767.prod.hosting.acquia.com
+  options:
+    ac-env: test
+    ac-realm: prod
+    ac-site: newellace
+  paths:
+    drush-script: drush9
+  root: /var/www/html/newellace.test/docroot
+  uri: newellacetest.prod.acquia-sites.com
+  user: newellace.test
+prod:
+  host: ded-29765.prod.hosting.acquia.com
+  options:
+    ac-env: prod
+    ac-realm: prod
+    ac-site: newellace
+  paths:
+    drush-script: drush9
+  root: /var/www/html/newellace.prod/docroot
+  uri: newellace.prod.acquia-sites.com
+  user: newellace.prod
