@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36a0945acef2fbb9790a93c25ffafb1a",
+    "content-hash": "8ac87337f20ac2b44c832fd2d3bbdbf1",
     "packages": [
         {
             "name": "acquia/blt",
@@ -8006,7 +8006,7 @@
                 {
                     "name": "Luís Otávio Cobucci Oblonczyk",
                     "email": "lcobucci@gmail.com",
-                    "role": "Developer"
+                    "role": "developer"
                 }
             ],
             "description": "A simple library to work with JSON Web Token and JSON Web Signature",
