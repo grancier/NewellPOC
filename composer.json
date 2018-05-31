@@ -71,7 +71,7 @@
     "require": {
         "acquia/blt": "9.x-dev",
         "drupal/acquia_search": "^1.14",
-        "drupal/acsf": "^2.48",
+        "drupal/acsf": "^2.47.0",
         "drupal/admin_toolbar": "~1.0",
         "drupal/adminimal_admin_toolbar": "^1.0",
         "drupal/config_ignore": "^2.1",

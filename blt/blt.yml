@@ -3,7 +3,7 @@ project:
   prefix: NS
   human_name: Newell
   profile:
-    name: lightning
+    name: newell
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
@@ -19,7 +19,7 @@ drush:
 modules:
   local:
     enable: [dblog, devel, seckit, views_ui]
-    uninstall: [acquia_connector, shield]
+    uninstall: [acquia_connector, shield, acsf]
   ci:
     enable: {  }
     uninstall: [acquia_connector, shield]
