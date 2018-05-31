@@ -1,0 +1,15 @@
+name: 'Newell'
+type: profile
+version: 8.x-dev
+description: 'Lightning sub profile for Newell sites.'
+core: '8.x'
+
+dependencies:
+  - acsf
+
+themes:
+  - bartik
+  - seven
+
+base profile:
+  name: lightning
