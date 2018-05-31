@@ -61,7 +61,7 @@ quickedit: 0.0.0
 menu_ui: 0.0.0
 shortcut: 0.0.0
 rdf: 0.0.0
-views_ui: 0.0.0
+views_ui: 8.5.3
 metatag: 0.0.0
 panels: 0.0.0
 panels_ipe: 0.0.0
@@ -101,3 +101,5 @@ entity_reference_revisions: 1.5.0
 paragraphs: 1.3.0
 pathauto: 1.2.0
 responsive_menu: 2.6.0
+acquia_connector: 1.14.0
+acquia_search: 1.14.0

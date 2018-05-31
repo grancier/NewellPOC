@@ -1,4 +1,6 @@
 module:
+  acquia_connector: 0
+  acquia_search: 0
   admin_toolbar: 0
   adminimal_admin_toolbar: 0
   block: 0
@@ -83,7 +85,6 @@ module:
   schemata: 0
   schemata_json_schema: 0
   search_api: 0
-  search_api_db: 0
   search_api_solr: 0
   seckit: 0
   serialization: 0
