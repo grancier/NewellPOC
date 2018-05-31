@@ -13,17 +13,17 @@ git:
     - 'newellace@svn-28441.prod.hosting.acquia.com:newellace.git'
 drush:
   aliases:
-    remote: '${project.machine_name}.test'
+    remote: '${project.machine_name}-ace.dev'
     local: self
     ci: self
   default_alias: '${drush.aliases.local}'
 modules:
   local:
     enable: [dblog, devel, seckit, views_ui]
-    uninstall: [acquia_connector, shield, acsf]
+    uninstall: [shield, acsf]
   ci:
     enable: {  }
-    uninstall: [acquia_connector, shield]
+    uninstall: [shield]
   dev:
     enable: [acquia_connector, shield]
     uninstall: {  }
