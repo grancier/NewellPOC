@@ -36,3 +36,17 @@ modules:
 cm:
   strategy: config-split
   allow-overrides: true
+command-hooks:
+  frontend-reqs:
+    dir: '${docroot}/themes/custom/newell'
+    command: 'yarn install && npm rebuild node-sass;'
+  frontend-assets:
+    dir: '${docroot}/themes/custom/newell'
+    command: 'yarn install && npm rebuild node-sass && gulp;'
+  frontend-test:
+    dir: '${docroot}/themes/custom/newell'
+    command: ''
+phpcs:
+  filesets:
+    - files.php.custom.modules
+    - files.php.tests
