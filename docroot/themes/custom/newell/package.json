@@ -1,0 +1,26 @@
+{
+  "name": "newell",
+  "version": "1.0.0",
+  "description": "Drupal 8 COG theme for Newell Brands.",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-coffee": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-sass-glob": "latest",
+    "gulp-sass-lint": "latest",
+    "gulp-rename": "latest",
+    "node-sass": "latest",
+    "node-sass-import-once": "latest",
+    "run-sequence": "latest"
+  }
+}
