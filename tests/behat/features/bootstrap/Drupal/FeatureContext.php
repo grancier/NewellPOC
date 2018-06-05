@@ -278,6 +278,17 @@ class FeatureContext extends RawDrupalContext implements SnippetAcceptingContext
   }
 
   /**
+   * @Given the following roles do not have content permissions for the :arg1 content type:
+   */
+  public function roleContentNotPermissions($node_type, TableNode $rolesTable) {
+    foreach ($rolesTable as $rolePermission) {
+      $role = $rolePermission['role'];
+      $permission = $rolePermission['permission'] . ' ' . $node_type . ' content';
+      $this->roleDoesNotHavePermission($role, $permission);
+    }
+  }
+
+  /**
    * @Given the following roles have these permissions:
    */
   public function roleUserPermissions(TableNode $rolesTable) {
