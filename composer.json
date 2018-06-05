@@ -1,152 +1,152 @@
 {
-    "name": "acquia-pso/newell",
-    "description": "Newell ACSF project with Acquia BLT.",
-    "type": "project",
-    "minimum-stability": "dev",
-    "repositories": {
-      "drupal": {
-        "type": "composer",
-        "url": "https://packages.drupal.org/8"
-      },
-      "asset-packagist": {
-        "type": "composer",
-        "url": "https://asset-packagist.org"
-      },
-      "mmenu": {
-        "type": "package",
-        "package": {
-          "name": "mmenu/mmenu",
-          "version": "6.1.0",
-          "type": "drupal-library",
-          "extra": {
-            "installer-name": "mmenu"
-          },
-          "dist": {
-            "url": "https://api.github.com/repos/FrDH/jQuery.mmenu/zipball",
-            "type": "zip"
-          },
-          "require": {
-            "composer/installers": "~1.0"
-          }
-        }
-      },
-      "superfish": {
-        "type": "package",
-        "package": {
-          "name": "superfish/superfish",
-          "version": "1.7.0",
-          "type": "drupal-library",
-          "extra": {
-            "installer-name": "superfish"
-          },
-          "dist": {
-            "url": "https://api.github.com/repos/joeldbirch/superfish/zipball",
-            "type": "zip"
-          },
-          "require": {
-            "composer/installers": "~1.0"
-          }
-        }
-      },
-      "hammerjs": {
-        "type": "package",
-        "package": {
-          "name": "hammerjs/hammerjs",
-          "version": "2.0.7",
-          "type": "drupal-library",
-          "extra": {
-            "installer-name": "hammerjs"
-          },
-          "dist": {
-            "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball",
-            "type": "zip"
-          },
-          "require": {
-            "composer/installers": "~1.0"
-          }
+  "name": "acquia-pso/newell",
+  "description": "Newell ACSF project with Acquia BLT.",
+  "type": "project",
+  "minimum-stability": "dev",
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    "asset-packagist": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    "mmenu": {
+      "type": "package",
+      "package": {
+        "name": "mmenu/mmenu",
+        "version": "6.1.0",
+        "type": "drupal-library",
+        "extra": {
+          "installer-name": "mmenu"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/FrDH/jQuery.mmenu/zipball",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
         }
       }
     },
-    "prefer-stable": true,
-    "require": {
-        "acquia/blt": "9.x-dev",
-        "drupal/acquia_search": "^1.14",
-        "drupal/acsf": "^2.47.0",
-        "drupal/admin_toolbar": "~1.0",
-        "drupal/adminimal_admin_toolbar": "^1.0",
-        "drupal/config_ignore": "^2.1",
-        "drupal/environment_indicator": "^3",
-        "drupal/field_group": "^1.0@RC",
-        "drupal/google_analytics": "^2.2",
-        "drupal/metatag": "^1.5",
-        "drupal/paragraphs": "^1.0",
-        "drupal/responsive_menu": "^2.6",
-        "drupal/simplesamlphp_auth": "^3.0",
-        "drupal/social_media_links": "^2.6",
-        "drupal/xmlsitemap": "^1.0@alpha",
-        "hammerjs/hammerjs": "2.0.7",
-        "mmenu/mmenu": "6.1.0",
-        "superfish/superfish": "1.7.0"
-    },
-    "require-dev": {
-        "geerlingguy/drupal-vm": "^4.8",
-        "drupal/console": "^1.0.0-rc13"
-    },
-    "extra": {
-        "enable-patching": true,
-        "installer-types": [
-            "bower-asset",
-            "npm-asset"
-        ],
-        "drupal-scaffold": {
-          "excludes": [
-            ".htaccess"
-          ]
+    "superfish": {
+      "type": "package",
+      "package": {
+        "name": "superfish/superfish",
+        "version": "1.7.0",
+        "type": "drupal-library",
+        "extra": {
+          "installer-name": "superfish"
         },
-        "installer-paths": {
-            "docroot/core": [
-                "type:drupal-core"
-            ],
-            "docroot/modules/contrib/{$name}": [
-                "type:drupal-module"
-            ],
-            "docroot/modules/custom/{$name}": [
-                "type:drupal-custom-module"
-            ],
-            "docroot/profiles/contrib/{$name}": [
-                "type:drupal-profile"
-            ],
-            "docroot/profiles/custom/{$name}": [
-                "type:drupal-custom-profile"
-            ],
-            "docroot/themes/contrib/{$name}": [
-                "type:drupal-theme"
-            ],
-            "docroot/themes/custom/{$name}": [
-                "type:drupal-custom-theme"
-            ],
-            "docroot/libraries/{$name}": [
-                "type:drupal-library",
-                "type:bower-asset",
-                "type:npm-asset"
-            ],
-            "drush/contrib/{$name}": [
-                "type:drupal-drush"
-            ]
+        "dist": {
+          "url": "https://api.github.com/repos/joeldbirch/superfish/zipball",
+          "type": "zip"
         },
-        "merge-plugin": {
-            "require": [
-                "blt/composer.required.json",
-                "blt/composer.suggested.json"
-            ],
-            "merge-extra": true,
-            "merge-extra-deep": true,
-            "merge-scripts": true,
-            "replace": false,
-            "ignore-duplicates": true
+        "require": {
+          "composer/installers": "~1.0"
         }
+      }
     },
-    "config": {
-        "sort-packages": true
+    "hammerjs": {
+      "type": "package",
+      "package": {
+        "name": "hammerjs/hammerjs",
+        "version": "2.0.7",
+        "type": "drupal-library",
+        "extra": {
+          "installer-name": "hammerjs"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
     }
+  },
+  "prefer-stable": true,
+  "require": {
+    "acquia/blt": "9.x-dev",
+    "drupal/acquia_search": "^1.14",
+    "drupal/acsf": "^2.47.0",
+    "drupal/admin_toolbar": "~1.0",
+    "drupal/adminimal_admin_toolbar": "^1.0",
+    "drupal/config_ignore": "^2.1",
+    "drupal/environment_indicator": "^3",
+    "drupal/field_group": "^1.0@RC",
+    "drupal/google_analytics": "^2.2",
+    "drupal/metatag": "^1.5",
+    "drupal/paragraphs": "^1.0",
+    "drupal/responsive_menu": "^2.6",
+    "drupal/simplesamlphp_auth": "^3.0",
+    "drupal/social_media_links": "^2.6",
+    "drupal/xmlsitemap": "^1.0@alpha",
+    "hammerjs/hammerjs": "2.0.7",
+    "mmenu/mmenu": "6.1.0",
+    "superfish/superfish": "1.7.0"
+  },
+  "require-dev": {
+    "geerlingguy/drupal-vm": "^4.8",
+    "drupal/console": "^1.0.0-rc13"
+  },
+  "extra": {
+    "enable-patching": true,
+    "installer-types": [
+      "bower-asset",
+      "npm-asset"
+    ],
+    "drupal-scaffold": {
+      "excludes": [
+        ".htaccess"
+      ]
+    },
+    "installer-paths": {
+      "docroot/core": [
+        "type:drupal-core"
+      ],
+      "docroot/modules/contrib/{$name}": [
+        "type:drupal-module"
+      ],
+      "docroot/modules/custom/{$name}": [
+        "type:drupal-custom-module"
+      ],
+      "docroot/profiles/contrib/{$name}": [
+        "type:drupal-profile"
+      ],
+      "docroot/profiles/custom/{$name}": [
+        "type:drupal-custom-profile"
+      ],
+      "docroot/themes/contrib/{$name}": [
+        "type:drupal-theme"
+      ],
+      "docroot/themes/custom/{$name}": [
+        "type:drupal-custom-theme"
+      ],
+      "docroot/libraries/{$name}": [
+        "type:drupal-library",
+        "type:bower-asset",
+        "type:npm-asset"
+      ],
+      "drush/contrib/{$name}": [
+        "type:drupal-drush"
+      ]
+    },
+    "merge-plugin": {
+      "require": [
+        "blt/composer.required.json",
+        "blt/composer.suggested.json"
+      ],
+      "merge-extra": true,
+      "merge-extra-deep": true,
+      "merge-scripts": true,
+      "replace": false,
+      "ignore-duplicates": true
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
 }
