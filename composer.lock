@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "a18e11da26db4711462b7265c2c5b6a450dddf72"
+                "reference": "3fb7fb455c7e34d0aea95c53513f14f509d78f98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/a18e11da26db4711462b7265c2c5b6a450dddf72",
-                "reference": "a18e11da26db4711462b7265c2c5b6a450dddf72",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/3fb7fb455c7e34d0aea95c53513f14f509d78f98",
+                "reference": "3fb7fb455c7e34d0aea95c53513f14f509d78f98",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,7 @@
                 "doctrine/common": "^2.5",
                 "doctrine/inflector": "~1.1.0",
                 "drupal/coder": "^8.2.11",
-                "drush/drush": "^9.1.0",
+                "drush/drush": "^9.3.0",
                 "grasmash/drupal-security-warning": "^1.0.0",
                 "grasmash/yaml-cli": "^1.0.0",
                 "grasmash/yaml-expander": "^1.2.0",
@@ -94,7 +94,7 @@
                 "template",
                 "testing"
             ],
-            "time": "2018-05-31T18:29:27+00:00"
+            "time": "2018-06-04T21:49:01+00:00"
         },
         {
             "name": "acquia/http-hmac-php",
@@ -8006,7 +8006,7 @@
                 {
                     "name": "Luís Otávio Cobucci Oblonczyk",
                     "email": "lcobucci@gmail.com",
-                    "role": "Developer"
+                    "role": "developer"
                 }
             ],
             "description": "A simple library to work with JSON Web Token and JSON Web Signature",
