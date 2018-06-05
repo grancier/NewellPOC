@@ -82,6 +82,7 @@
         "drupal/paragraphs": "^1.0",
         "drupal/responsive_menu": "^2.6",
         "drupal/simplesamlphp_auth": "^3.0",
+        "drupal/social_media_links": "^2.6",
         "drupal/xmlsitemap": "^1.0@alpha",
         "hammerjs/hammerjs": "2.0.7",
         "mmenu/mmenu": "6.1.0",
