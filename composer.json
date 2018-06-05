@@ -103,6 +103,11 @@
         ".htaccess"
       ]
     },
+    "patches": {
+      "drupal/acquia_connector": {
+        "Fixes ACSF integration": "https://www.drupal.org/files/issues/2871721-9.patch"
+      }
+    },
     "installer-paths": {
       "docroot/core": [
         "type:drupal-core"
