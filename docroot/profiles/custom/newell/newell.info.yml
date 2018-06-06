@@ -6,6 +6,7 @@ core: '8.x'
 
 dependencies:
   - acsf
+  - config_split
 
 themes:
   - bartik

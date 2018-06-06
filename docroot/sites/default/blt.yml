@@ -1,0 +1,9 @@
+project:
+  local:
+    hostname: local.newell.com
+    protocol: http
+  machine_name: newell
+drush:
+  aliases:
+    local: self
+    remote: newell-ace.dev
