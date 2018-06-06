@@ -1,0 +1,14 @@
+uuid: 63a77bfc-b175-40ce-964c-1b668c162004
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.sku_creator
+  module:
+    - user
+id: user_remove_role_action.sku_creator
+label: 'Remove the Sku creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: sku_creator

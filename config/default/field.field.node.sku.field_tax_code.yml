@@ -1,0 +1,19 @@
+uuid: 34e47fd8-f334-41f9-a7c4-1e551f20a8f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tax_code
+    - node.type.sku
+id: node.sku.field_tax_code
+field_name: field_tax_code
+entity_type: node
+bundle: sku
+label: 'Tax Code'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

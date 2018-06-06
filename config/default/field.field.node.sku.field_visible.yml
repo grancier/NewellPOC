@@ -1,0 +1,23 @@
+uuid: f26a3aa4-f3cc-4c9c-b473-53e4cbb1db8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_visible
+    - node.type.sku
+id: node.sku.field_visible
+field_name: field_visible
+entity_type: node
+bundle: sku
+label: Visible
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'TRUE'
+  off_label: 'FALSE'
+field_type: boolean

@@ -1,0 +1,14 @@
+uuid: 261f5a52-3751-4fa3-8643-800868b2c142
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.sku_reviewer
+  module:
+    - user
+id: user_add_role_action.sku_reviewer
+label: 'Add the Sku reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: sku_reviewer

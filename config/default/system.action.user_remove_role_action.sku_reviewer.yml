@@ -1,0 +1,14 @@
+uuid: f295aa5c-7d54-4c20-9ef7-6e03a45b4190
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.sku_reviewer
+  module:
+    - user
+id: user_remove_role_action.sku_reviewer
+label: 'Remove the Sku reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: sku_reviewer

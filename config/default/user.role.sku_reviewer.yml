@@ -1,0 +1,19 @@
+uuid: 35233d47-e1cb-43b3-a7e1-bc30548c7cce
+langcode: en
+status: true
+dependencies: {  }
+id: sku_reviewer
+label: 'Sku reviewer'
+weight: 8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any sku content'
+  - 'edit any sku content'
+  - 'edit own sku content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view sku revisions'
