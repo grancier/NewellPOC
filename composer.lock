@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf63977e6d47a493e1d8e70fc9acddfb",
+    "content-hash": "e56fd3c4847d4e92972c8b90fbfd0a80",
     "packages": [
         {
             "name": "acquia/blt",
-            "version": "9.x-dev",
+            "version": "9.1.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "0a5944f345cabb559f10a309546369a5fdf1e9e6"
+                "reference": "36574ec26e67895010d97e41f1bf3f0f0e040d53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/0a5944f345cabb559f10a309546369a5fdf1e9e6",
-                "reference": "0a5944f345cabb559f10a309546369a5fdf1e9e6",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/36574ec26e67895010d97e41f1bf3f0f0e040d53",
+                "reference": "36574ec26e67895010d97e41f1bf3f0f0e040d53",
                 "shasum": ""
             },
             "require": {
@@ -97,7 +97,7 @@
                 "template",
                 "testing"
             ],
-            "time": "2018-06-08T23:14:22+00:00"
+            "time": "2018-06-08T11:18:08+00:00"
         },
         {
             "name": "acquia/http-hmac-php",
@@ -9443,16 +9443,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.9.4",
+            "version": "v0.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "4d969a0e08e1e05e7207c07cb4207017ecc9a331"
+                "reference": "4a2ce86f199d51b6e2524214dc06835e872f4fce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/4d969a0e08e1e05e7207c07cb4207017ecc9a331",
-                "reference": "4d969a0e08e1e05e7207c07cb4207017ecc9a331",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/4a2ce86f199d51b6e2524214dc06835e872f4fce",
+                "reference": "4a2ce86f199d51b6e2524214dc06835e872f4fce",
                 "shasum": ""
             },
             "require": {
@@ -9511,7 +9511,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2018-05-22T06:48:07+00:00"
+            "time": "2018-06-10T17:57:20+00:00"
         },
         {
             "name": "robrichards/xmlseclibs",
@@ -14693,7 +14693,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "acquia/blt": 20,
         "drupal/field_group": 5,
         "drupal/xmlsitemap": 15,
         "sensiolabs-de/deprecation-detector": 20
