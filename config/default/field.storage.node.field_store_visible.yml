@@ -1,0 +1,18 @@
+uuid: c95abf41-4539-4f83-aa66-ee9b47a2573c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_store_visible
+field_name: field_store_visible
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

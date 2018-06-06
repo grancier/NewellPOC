@@ -1,0 +1,23 @@
+uuid: a9338aa1-1b84-43df-a5b1-9d0cb1cfd63b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_minimum_order
+    - node.type.product
+id: node.product.field_minimum_order
+field_name: field_minimum_order
+entity_type: node
+bundle: product
+label: 'Minimum Order Qty'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
