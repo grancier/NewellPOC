@@ -45,11 +45,11 @@ datasource_settings:
       default: true
       selected: {  }
 processor_settings:
+  rendered_item: {  }
   add_url:
     plugin_id: add_url
     settings: {  }
   aggregated_field: {  }
-  rendered_item: {  }
 tracker_settings:
   default:
     plugin_id: default
