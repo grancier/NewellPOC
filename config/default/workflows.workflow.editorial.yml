@@ -2,9 +2,6 @@ uuid: 30686c7a-f4e4-4827-a051-8e226ac6aa1a
 langcode: en
 status: true
 dependencies:
-  config:
-    - node.type.landing_page
-    - node.type.page
   module:
     - content_moderation
 _core:
@@ -76,7 +73,4 @@ type_settings:
         - review
       to: review
       weight: 0
-  entity_types:
-    node:
-      - landing_page
-      - page
+  entity_types: {  }
