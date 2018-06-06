@@ -163,7 +163,7 @@ foreach (acsf_hooks_includes('post-sites-php') as $post_hook) {
   include $post_hook;
 }
 
-if ($is_local_env) {}
+if ($is_local_env) {
 $sites = array(
     'local.demo.com' => 'demo',
     'local.newell.com' => 'default',
