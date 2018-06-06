@@ -1,0 +1,19 @@
+uuid: 8e096fb7-3869-4ec8-a393-284d9dddce8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_up_sells
+field_name: field_up_sells
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

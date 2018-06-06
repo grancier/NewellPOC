@@ -17,8 +17,12 @@ Feature: Content Types
     And  I should see a "#edit-field-product-code-0-value[class*='required']" element
     And  I should see a "#edit-body-0-value[class*='required']" element
     And  I should see a "#edit-field-ecommerce-description-0-value[class*='required']" element
+    And  I should see a "#edit-field-parts-0-target-id[class*='required']" element
+    And  I should see a "#edit-field-cross-sells-0-target-id[class*='required']" element
+    And  I should see a "#edit-field-up-sells-0-target-id[class*='required']" element
     And  I should see a "#edit-field-store-visible-value" element
     And  I should see a "#edit-field-minimum-order-0-value[class*='required']" element
+    And  I should see a "#edit-field-brand[class*='required']" element
     And  I should see a "#edit-field-shippable-value" element
 
   @product @role
