@@ -5,6 +5,7 @@ dependencies:
   config:
     - node.type.landing_page
     - node.type.page
+    - node.type.sku
   module:
     - content_moderation
 id: newell_content_workflow
@@ -41,3 +42,4 @@ type_settings:
     node:
       - landing_page
       - page
+      - sku
