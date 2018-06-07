@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.product.field_minimum_order
     - field.field.node.product.field_parts
     - field.field.node.product.field_product_code
+    - field.field.node.product.field_related_documents
     - field.field.node.product.field_shippable
     - field.field.node.product.field_store_visible
     - field.field.node.product.field_title
@@ -29,6 +30,9 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: -20
     region: content
   field_brand:
     weight: 111
@@ -77,6 +81,15 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_related_documents:
+    type: entity_reference_entity_view
+    weight: 112
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
     region: content
   field_shippable:
     weight: 107

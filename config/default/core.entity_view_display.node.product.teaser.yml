@@ -26,9 +26,13 @@ content:
     weight: 100
     region: content
 hidden:
+  field_brand: true
+  field_cross_sells: true
   field_ecommerce_description: true
   field_minimum_order: true
+  field_parts: true
   field_product_code: true
   field_shippable: true
   field_store_visible: true
   field_title: true
+  field_up_sells: true
