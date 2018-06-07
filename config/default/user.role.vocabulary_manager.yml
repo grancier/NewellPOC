@@ -1,0 +1,19 @@
+uuid: d5fe34d2-2cdd-4a92-9df6-171ccd8aafec
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+id: vocabulary_manager
+label: 'Vocabulary manager'
+weight: 9
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer taxonomy'
+  - 'view the administration theme'

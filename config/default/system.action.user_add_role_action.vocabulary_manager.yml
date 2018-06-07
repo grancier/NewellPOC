@@ -1,0 +1,14 @@
+uuid: 324b41c0-4e8e-4398-ba79-a185aea5f9d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.vocabulary_manager
+  module:
+    - user
+id: user_add_role_action.vocabulary_manager
+label: 'Add the Vocabulary manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: vocabulary_manager

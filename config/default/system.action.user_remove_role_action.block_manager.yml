@@ -1,0 +1,14 @@
+uuid: 8e13a7a6-18fd-4cc3-b2c2-3200eaf34b99
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.block_manager
+  module:
+    - user
+id: user_remove_role_action.block_manager
+label: 'Remove the Block manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: block_manager
