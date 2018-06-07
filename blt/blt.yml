@@ -1,10 +1,12 @@
 project:
-  machine_name: blted8
+  machine_name: newell
   prefix: NS
   human_name: Newell
   profile:
     name: newell
-  local: {  }
+  local:
+    protocol: http
+    hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
   remotes:
