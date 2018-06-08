@@ -1,0 +1,1 @@
+# Newell Style Guide
