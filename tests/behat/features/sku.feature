@@ -27,7 +27,6 @@ Feature: Sku Bundle Requirements
   Scenario: Roles have needed permissions to act on sku content.
     Given that only the following roles have content permissions for the "sku" content type:
       | role         | permission |
-      | sku_creator  | create     |
       | sku_reviewer | edit own   |
       | sku_reviewer | edit any   |
 
