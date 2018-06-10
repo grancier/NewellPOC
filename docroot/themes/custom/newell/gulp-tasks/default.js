@@ -3,9 +3,6 @@
  * Task: Default.
  */
 
-module.exports = function (gulp, plugins, options) {
-  'use strict';
-
-  // The default task (called when you run `gulp` from cli)
+module.exports = function defaultTask(gulp) {
   gulp.task('default', ['build']);
 };

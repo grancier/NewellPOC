@@ -108,6 +108,7 @@ vendor/.git
 #Sass
 .sass-cache
 *.css.map
+dist
 
 #Netbeans IDE
 nbproject

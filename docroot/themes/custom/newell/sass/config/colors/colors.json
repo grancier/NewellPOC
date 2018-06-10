@@ -1,0 +1,19 @@
+{
+  "brand": {
+    "primary": {
+      "$color-brand-primary-regular": "#298fc2",
+      "$color-brand-primary-dark": "#14506b",
+      "$color-brand-primary-light": "#9ecee4"
+    },
+    "secondary": {
+      "$color-brand-secondary-regular": "#696158",
+      "$color-brand-secondary-dark": "#34302b",
+      "$color-brand-secondary-light": "#b4b0ab"
+    }
+  },
+  "ui": {
+    "$color-ui-regular": "#7d7468",
+    "$color-ui-dark": "#615751",
+    "$color-ui-light": "#f2f2f2"
+  }
+}

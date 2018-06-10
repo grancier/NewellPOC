@@ -1,0 +1,31 @@
+<div class="color-blocks">
+  {% for color, value in brand.primary %}
+  <div class="color-block">
+    <div class="color-block__value" style="background-color: {{ value }}"></div>
+    <div class="color-block__text">
+      <div>{{ color }}</div>
+      <div>{{ value }}</div>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% for color, value in brand.secondary %}
+  <div class="color-block">
+    <div class="color-block__value" style="background-color: {{ value }}"></div>
+    <div class="color-block__text">
+      <div>{{ color }}</div>
+      <div>{{ value }}</div>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% for color, value in ui %}
+  <div class="color-block">
+    <div class="color-block__value" style="background-color: {{ value }}"></div>
+    <div class="color-block__text">
+      <div>{{ color }}</div>
+      <div>{{ value }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

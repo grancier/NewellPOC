@@ -3,16 +3,8 @@
  * Task: Build.
  */
 
-module.exports = function (gulp, plugins, options) {
-  'use strict';
-
-  gulp.task('build', [
-    'compile:sass',
-    'minify:css',
-  ]);
-
-  gulp.task('build:dev', [
-    'compile:sass',
-    'minify:css',
-  ]);
+module.exports = function buildTask(gulp, plugins) {
+  gulp.task('build', () => {
+    plugins.runSequence('lint', 'prettier', ['sass', 'scripts', 'svg'], 'styleguide');
+  });
 };
