@@ -1,0 +1,17 @@
+previous:
+  text: "<"
+  href: back
+pages:
+  1:
+    text: First
+    href: first
+  2:
+    text: Second
+    href: second
+  3:
+    text: Third
+    href: second
+next:
+  text: ">"
+  href: forward
+current: 2

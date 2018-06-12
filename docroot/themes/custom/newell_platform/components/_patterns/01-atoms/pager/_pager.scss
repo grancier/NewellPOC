@@ -1,0 +1,20 @@
+.pager__items {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  border: 1px solid #b4b0ab;
+}
+
+.pager__item {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.is-active {
+    background-color: #298fc2;
+  }
+}

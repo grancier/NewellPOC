@@ -1,0 +1,49 @@
+name: Newell Platform Theme
+type: theme
+description: 'COG Based theme for Newell Brands'
+core: 8.x
+base theme: cog
+
+regions:
+  header_top_left: Header Top Left
+  header_top_right: Header Top Right
+  header_bottom_left: Header Bottom Left
+  header_bottom_center: Header Bottom Center
+  header_bottom_right: Header Bottom Right
+  main_menu: Main Menu
+  breadcrumb: Breadcrumb
+  admin_content: Admin Content
+  pre_content: Pre Content
+  sidebar_left: Sidebar Left
+  content: Content
+  sidebar_right: Sidebar Right
+  post_content: Post Content
+  footer_top_left: Footer Top Left
+  footer_top_right: Footer Top Right
+  footer_menu: Footer Menu
+  footer_bottom_left: Footer Bottom Left
+  footer_bottom_right: Footer Bottom Right
+
+libraries:
+  - newell_platform/fonts
+  - newell_platform/global
+
+component-libraries:
+  base:
+    paths:
+      - components/_patterns/00-base
+  atoms:
+    paths:
+      - components/_patterns/01-atoms
+  molecules:
+    paths:
+      - components/_patterns/02-molecules
+  organisms:
+    paths:
+      - components/_patterns/03-organisms
+  templates:
+    paths:
+      - components/_patterns/04-templates
+  pages:
+    paths:
+      - components/_patterns/05-pages

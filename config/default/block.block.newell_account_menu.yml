@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - newell
+    - newell_platform
 _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
 id: newell_account_menu
-theme: newell
-region: branding
-weight: 0
+theme: newell_platform
+region: header_bottom_right
+weight: -6
 provider: null
 plugin: 'system_menu_block:account'
 settings:

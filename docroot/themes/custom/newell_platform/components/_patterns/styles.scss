@@ -1,0 +1,37 @@
+@import '00-base/global/**/*.scss';
+@import '00-base/site/**/*.scss';
+
+// Atoms
+//
+// Weight: 1
+//
+// Style guide: atoms
+@import '01-atoms/**/*.scss';
+
+// Molecules
+//
+// Weight: 2
+//
+// Style guide: molecules
+@import '02-molecules/**/*.scss';
+
+// Organisms
+//
+// Weight: 3
+//
+// Style guide: organisms
+@import '03-organisms/**/*.scss';
+
+// Templates
+//
+// Weight: 4
+//
+// Style guide: templates
+@import '04-templates/**/*.scss';
+
+// Pages
+//
+// Weight: 5
+//
+// Style guide: pages
+@import '05-pages/**/*.scss';

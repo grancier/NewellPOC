@@ -137,5 +137,14 @@ drush/sites/.checksums
 # Deprecation detector rules
 .rules
 
+
 # Komodo
 *.komodoproject
+
+# PatternLab
+pattern-lab
+**/add_attributes.function.php
+**/bem.function.php
+
+# Yarn Error Log
+**/yarn-error.log

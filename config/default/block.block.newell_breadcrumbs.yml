@@ -5,13 +5,13 @@ dependencies:
   module:
     - system
   theme:
-    - newell
+    - newell_platform
 _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: newell_breadcrumbs
-theme: newell
-region: branding
-weight: 0
+theme: newell_platform
+region: breadcrumb
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:

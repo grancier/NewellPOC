@@ -1,0 +1,12 @@
+newell_platform.mobile:
+  label: Mobile
+  mediaQuery: 'all and (max-width: 767px)'
+  weight: 1
+newell_platform.tablet:
+  label: Tablet
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 1199px)'
+  weight: 2
+newell_platform.desktop:
+  label: Desktop
+  mediaQuery: 'all and (min-width: 1200px)'
+  weight: 3

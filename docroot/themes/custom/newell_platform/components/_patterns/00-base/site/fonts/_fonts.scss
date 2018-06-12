@@ -1,0 +1,26 @@
+$font-primary: 'Roboto', sans-serif;
+$font-secondary: 'Roboto Slab', serif;
+
+.font-primary {
+  font-family: $font-primary;
+}
+.font-primary--light {
+  font-family: $font-primary;
+  font-weight: 300;
+}
+.font-primary--bold {
+  font-family: $font-primary;
+  font-weight: 700;
+}
+
+.font-secondary {
+  font-family: $font-secondary;
+}
+.font-secondary--light {
+  font-family: $font-primary;
+  font-weight: 300;
+}
+.font-secondary--bold {
+  font-family: $font-primary;
+  font-weight: 700;
+}

@@ -5,13 +5,13 @@ dependencies:
   module:
     - system
   theme:
-    - newell
+    - newell_platform
 _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: newell_messages
-theme: newell
-region: branding
-weight: 0
+theme: newell_platform
+region: admin_content
+weight: -6
 provider: null
 plugin: system_messages_block
 settings:

@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - newell
+    - newell_platform
 _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: newell_page_title
-theme: newell
+theme: newell_platform
 region: content
-weight: -50
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
