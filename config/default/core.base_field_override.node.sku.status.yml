@@ -1,0 +1,22 @@
+uuid: 1e2a9e81-8494-4baa-a68e-2dd0d7176abd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sku
+id: node.sku.status
+field_name: status
+entity_type: node
+bundle: sku
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

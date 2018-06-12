@@ -136,3 +136,6 @@ drush/sites/.checksums
 
 # Deprecation detector rules
 .rules
+
+# Komodo
+*.komodoproject

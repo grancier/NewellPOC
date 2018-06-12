@@ -1,0 +1,23 @@
+uuid: dd01841c-314e-48c7-9ba2-c857bed71cb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_searchable
+    - node.type.sku
+id: node.sku.field_searchable
+field_name: field_searchable
+entity_type: node
+bundle: sku
+label: Searchable
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'TRUE'
+  off_label: 'FALSE'
+field_type: boolean

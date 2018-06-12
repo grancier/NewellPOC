@@ -1,0 +1,96 @@
+uuid: 5bf05d57-3db6-4e7f-94bd-9ace31b23b38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sku.field_base_price
+    - field.field.node.sku.field_online
+    - field.field.node.sku.field_sale_price
+    - field.field.node.sku.field_searchable
+    - field.field.node.sku.field_stock_level
+    - field.field.node.sku.field_tax_code
+    - field.field.node.sku.field_upc
+    - field.field.node.sku.field_visible
+    - node.type.sku
+  module:
+    - user
+id: node.sku.default
+targetEntityType: node
+bundle: sku
+mode: default
+content:
+  field_base_price:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_online:
+    weight: 106
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_sale_price:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_searchable:
+    weight: 108
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_stock_level:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_tax_code:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_upc:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_visible:
+    weight: 107
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
