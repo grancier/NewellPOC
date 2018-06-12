@@ -10,17 +10,17 @@ project:
 git:
   default_branch: master
   remotes:
-    - 'newellace@svn-28441.prod.hosting.acquia.com:newellace.git'
+    - 'newellsf@svn-2398.enterprise-g1.hosting.acquia.com:newellsf.git'
 drush:
   aliases:
-    remote: '${project.machine_name}-ace.dev'
+    remote: '${project.machine_name}.prod'
     local: self
     ci: self
   default_alias: '${drush.aliases.local}'
 modules:
   local:
     enable: [dblog, devel, seckit, views_ui]
-    uninstall: [shield, acsf]
+    uninstall: [shield]
   ci:
     enable: {  }
     uninstall: [shield]
@@ -31,7 +31,7 @@ modules:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
   prod:
-    enable: [acquia_connector, shield]
+    enable: [acquia_connector]
     uninstall: [devel, views_ui]
 cm:
   strategy: config-split

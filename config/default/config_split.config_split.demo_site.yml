@@ -1,19 +1,18 @@
-uuid: 37a368d8-afea-41d8-aa7a-163e830abf5e
+uuid: fbe24dba-3285-48d5-93ff-e2665a4e31de
 langcode: en
-status: true
+status: false
 dependencies: {  }
-id: prod
-label: Prod
-folder: ../config/envs/prod
+id: demo_site
+label: 'Demo Site'
+folder: ../config/demo
 module:
   acquia_connector: 0
   acquia_search: 0
 theme: {  }
-blacklist: {  }
+blacklist:
+  - acquia_connector.settings
 graylist:
   - acquia_connector.settings
-  - acquia_search.settings
-  - environment_indicator.settings
 graylist_dependents: true
 graylist_skip_equal: true
 weight: 0
