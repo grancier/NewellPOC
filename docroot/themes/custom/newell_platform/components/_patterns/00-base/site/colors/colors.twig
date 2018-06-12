@@ -1,0 +1,14 @@
+{% for key, type in colors %}
+  <div class="sg-pattern-title">{{ key }}</div>
+  <ul class="sg-colors">
+    {% for item in type %}
+      <li>
+        <span class="sg-swatch" style="background: {{ item.value }}"></span>
+        <span class="sg-label">{{ item.name }}</span><br>
+        <span class="sg-label">{{ item.value }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+  <br>
+  <br>
+{% endfor %}

@@ -1,0 +1,22 @@
+colors:
+  "brand-primary":
+    - name: default
+      value: "#298fc2"
+    - name: hover
+      value: "#14506b"
+    - name: disabled
+      value: "#9ecee4"
+  "brand-secondary":
+    - name: default
+      value: "#696158"
+    - name: hover
+      value: "#34302b"
+    - name: disabled
+      value: "#b4b0ab"
+  "ui":
+    - name: default
+      value: "#7d7468"
+    - name: hover
+      value: "#615751"
+    - name: disabled
+      value: "#f2f2f2"

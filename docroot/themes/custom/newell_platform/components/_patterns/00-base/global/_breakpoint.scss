@@ -1,0 +1,10 @@
+// Breakpoint: Mobile
+$breakpoint-mobile: 0 and 767px;
+$breakpoint-mobile-to-tablet: max-width 1199px;
+
+// Breakpoint: Tablet
+$breakpoint-tablet: 768px and 1199px;
+$breakpoint-tablet-to-desktop: 768px;
+
+// Breakpoint: Desktop
+$breakpoint-desktop: 1200px;

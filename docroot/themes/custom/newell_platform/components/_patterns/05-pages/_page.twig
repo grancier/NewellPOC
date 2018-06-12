@@ -1,0 +1,124 @@
+<div {{ attributes }}>
+  <header role="banner">
+    <div class="header-top">
+      {% if page.header_top_left %}
+        <div class="header-top-left">
+          {{ page.header_top_left }}
+        </div>
+      {% endif %}
+
+      {% if page.header_top_right %}
+        <div class="header-top-right">
+          {{ page.header_top_right }}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="header-bottom">
+      {% if page.header_bottom_left %}
+        <div class="header-bottom-left">
+          {{ page.header_bottom_left }}
+        </div>
+      {% endif %}
+
+      {% if page.header_bottom_center %}
+        <div class="header-bottom-center">
+          {{ page.header_bottom_center }}
+        </div>
+      {% endif %}
+
+      {% if page.header_bottom_right %}
+        <div class="header-bottom-right">
+          {{ page.header_bottom_right }}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if page.main_menu %}
+      <div class="main-menu">
+        {{ page.main_menu}}
+      </div>
+    {% endif %}
+  </header>
+
+  <main role="main">
+    {% if page.breadcrumb %}
+      <div class="breadcrumb">
+        {{ page.breadcrumb }}
+      </div>
+    {% endif %}
+
+    {% if page.admin_content %}
+      <div class="admin-content">
+        {{ page.admin_content }}
+      </div>
+    {% endif %}
+
+    {% if page.pre_content %}
+      <div class="pre-content">
+        {{ page.pre_content }}
+      </div>
+    {% endif %}
+
+    <div class="content">
+      {% if page.sidebar_left %}
+        <div class="sidebar-left">
+          {{ page.sidebar_left }}
+        </div>
+      {% endif %}
+
+      {% if page.content %}
+        <div class="content" id="content">
+          {{ page.content }}
+        </div>
+      {% endif %}
+
+      {% if page.sidebar_right %}
+        <div class="sidebar_right">
+          {{ page.sidebar_right }}
+        </div>
+      {% endif %}
+    </div>
+
+
+    {% if page.post_content %}
+      <div class="post-content">
+        {{ page.post_content }}
+      </div>
+    {% endif %}
+  </main>
+
+  <footer role="contentinfo">
+    <div class="footer-top">
+      {% if page.footer_top_left %}
+        <div class="footer-top-left">
+          {{ page.footer_top_left }}
+        </div>
+      {% endif %}
+      {% if page.footer_top_right %}
+        <div class="footer-top-right">
+          {{ page.footer_top_right }}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if page.footer_menu %}
+      <div class="footer-menu">
+        {{ page.footer_menu}}
+      </div>
+    {% endif %}
+
+    <div class="footer-bottom">
+      {% if page.footer_bottom_left %}
+        <div class="footer-bottom-left">
+          {{ page.footer_bottom_left }}
+        </div>
+      {% endif %}
+      {% if page.footer_bottom_right %}
+        <div class="footer-bottom-right">
+          {{ page.footer_bottom_right }}
+        </div>
+      {% endif %}
+    </div>
+  </footer>
+</div>

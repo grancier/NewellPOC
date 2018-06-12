@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - newell
+    - newell_platform
 _core:
   default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
 id: newell_local_tasks
-theme: newell
-region: content
-weight: -40
+theme: newell_platform
+region: admin_content
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:

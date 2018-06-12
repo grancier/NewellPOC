@@ -38,14 +38,14 @@ cm:
   allow-overrides: true
 command-hooks:
   frontend-reqs:
-    dir: '${docroot}/themes/custom/newell'
+    dir: '${docroot}/themes/custom/newell_platform'
     command: 'yarn install && npm rebuild node-sass;'
   frontend-assets:
-    dir: '${docroot}/themes/custom/newell'
-    command: 'yarn install && npm rebuild node-sass && gulp;'
+    dir: '${docroot}/themes/custom/newell_platform'
+    command: 'gulp;'
   frontend-test:
-    dir: '${docroot}/themes/custom/newell'
-    command: ''
+    dir: '${docroot}/themes/custom/newell_platform'
+    command: 'gulp lint'
 phpcs:
   filesets:
     - files.php.custom.modules

@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - newell
+    - newell_platform
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
 id: newell_footer
-theme: newell
-region: branding
-weight: 0
+theme: newell_platform
+region: footer_menu
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

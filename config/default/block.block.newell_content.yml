@@ -5,13 +5,13 @@ dependencies:
   module:
     - system
   theme:
-    - newell
+    - newell_platform
 _core:
   default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
 id: newell_content
-theme: newell
+theme: newell_platform
 region: content
-weight: 0
+weight: -5
 provider: null
 plugin: system_main_block
 settings:

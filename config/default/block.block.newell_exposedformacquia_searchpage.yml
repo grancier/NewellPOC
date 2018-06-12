@@ -7,13 +7,13 @@ dependencies:
   module:
     - views
   theme:
-    - newell
+    - newell_platform
 _core:
   default_config_hash: MnGHGNkOcN54HROOlCNlxL9Vk_x2GLIgDnrZiSCFdQc
 id: newell_exposedformacquia_searchpage
-theme: newell
-region: sidebar_first
-weight: -8
+theme: newell_platform
+region: header_bottom_center
+weight: -6
 provider: null
 plugin: 'views_exposed_filter_block:acquia_search-page'
 settings:

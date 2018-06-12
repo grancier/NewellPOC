@@ -5,13 +5,13 @@ dependencies:
   module:
     - help
   theme:
-    - newell
+    - newell_platform
 _core:
   default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
 id: newell_help
-theme: newell
-region: content
-weight: -30
+theme: newell_platform
+region: admin_content
+weight: -4
 provider: null
 plugin: help_block
 settings:

@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - newell
+    - newell_platform
 _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
 id: newell_local_actions
-theme: newell
-region: content
-weight: -20
+theme: newell_platform
+region: admin_content
+weight: -3
 provider: null
 plugin: local_actions_block
 settings:
