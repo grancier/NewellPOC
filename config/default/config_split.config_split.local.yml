@@ -8,13 +8,11 @@ folder: ../config/envs/local
 module:
   dblog: 0
   devel: 0
-  shield: 0
 theme: {  }
 blacklist:
   - dblog.settings
   - devel.settings
   - devel.toolbar.settings
-  - shield.settings
 graylist:
   - system.performance
 graylist_dependents: true
