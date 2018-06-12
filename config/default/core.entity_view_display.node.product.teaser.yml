@@ -22,6 +22,9 @@ content:
       trim_length: 600
     third_party_settings: {  }
     region: content
+  content_moderation_control:
+    weight: -20
+    region: content
   links:
     weight: 100
     region: content
@@ -32,6 +35,7 @@ hidden:
   field_minimum_order: true
   field_parts: true
   field_product_code: true
+  field_related_documents: true
   field_shippable: true
   field_store_visible: true
   field_title: true

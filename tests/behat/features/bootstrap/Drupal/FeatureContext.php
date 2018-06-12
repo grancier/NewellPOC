@@ -168,6 +168,14 @@ class FeatureContext extends RawDrupalContext implements SnippetAcceptingContext
   }
 
   /**
+   * @Then the :arg1 field on :arg2 content should allow references to :arg3 media
+   */
+  public function checkMediaFieldAllowsEntityReferences($field_name, $node_type, $reference_bundles) {
+    $reference_bundles = explode(',', $reference_bundles);
+    $this->fieldAllowsEntityReferences($field_name, 'node', $node_type, $reference_bundles);
+  }
+
+  /**
    * @Then the :arg1 field on :arg2 content should allow references to :arg3 paragraphs
    */
   public function checkFieldParagraphAllowsEntityReferences($field_name, $node_type, $reference_bundles) {

@@ -32,6 +32,12 @@ Feature: Product Bundle Requirements
     And the "field_up_sells" field should be required for "product" content
     And the "field_brand" field should be required for "product" content
     And the "field_minimum_order" field should be required for "product" content
+    And the "field_related_documents" field on product content should allow references to document media
+    And the "field_skus" field on product content should allow references to sku content
+    And the "field_parts" field on product content should allow references to product content
+    And the "field_cross_sells" field on product content should allow references to product content
+    And the "field_up_sells" field on product content should allow references to product content
+    And the "field_brand" field on product content should allow references to brand vocabulary
 
   @product @role
   Scenario: Roles have needed permissions to act on product content.

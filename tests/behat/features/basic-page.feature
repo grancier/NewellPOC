@@ -20,7 +20,7 @@ Feature: Basic Page Bundle Requirements
       | page_creator           | edit own   |
       | page_reviewer		   | edit any   |
 
-  Scenario: Roles do not have permissions to act on images content.
+  Scenario: Roles do not have permissions to act on page content.
     Given the following roles do not have content permissions for the "page" content type:
       | role                  | permission |
       | page_creator	      | delete     |

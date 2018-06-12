@@ -12,13 +12,21 @@ dependencies:
     - field.field.node.product.field_product_code
     - field.field.node.product.field_related_documents
     - field.field.node.product.field_shippable
+    - field.field.node.product.field_skus
     - field.field.node.product.field_store_visible
     - field.field.node.product.field_title
     - field.field.node.product.field_up_sells
     - node.type.product
   module:
+    - panelizer
     - text
     - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
 id: node.product.default
 targetEntityType: node
 bundle: product
@@ -27,15 +35,12 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
-  content_moderation_control:
-    weight: -20
-    region: content
   field_brand:
-    weight: 111
+    weight: 10
     label: above
     settings:
       link: true
@@ -43,7 +48,7 @@ content:
     type: entity_reference_label
     region: content
   field_cross_sells:
-    weight: 109
+    weight: 8
     label: above
     settings:
       link: true
@@ -51,14 +56,14 @@ content:
     type: entity_reference_label
     region: content
   field_ecommerce_description:
-    weight: 104
+    weight: 3
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_minimum_order:
-    weight: 106
+    weight: 5
     label: above
     settings:
       thousand_separator: ''
@@ -67,7 +72,7 @@ content:
     type: number_integer
     region: content
   field_parts:
-    weight: 108
+    weight: 7
     label: above
     settings:
       link: true
@@ -75,7 +80,7 @@ content:
     type: entity_reference_label
     region: content
   field_product_code:
-    weight: 103
+    weight: 2
     label: above
     settings:
       link_to_entity: false
@@ -84,7 +89,7 @@ content:
     region: content
   field_related_documents:
     type: entity_reference_entity_view
-    weight: 112
+    weight: 11
     label: above
     settings:
       view_mode: default
@@ -92,7 +97,7 @@ content:
     third_party_settings: {  }
     region: content
   field_shippable:
-    weight: 107
+    weight: 6
     label: above
     settings:
       format: default
@@ -101,8 +106,16 @@ content:
     third_party_settings: {  }
     type: boolean
     region: content
+  field_skus:
+    weight: 12
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
   field_store_visible:
-    weight: 105
+    weight: 4
     label: above
     settings:
       format: default
@@ -112,7 +125,7 @@ content:
     type: boolean
     region: content
   field_title:
-    weight: 102
+    weight: 0
     label: above
     settings:
       link_to_entity: false
@@ -120,14 +133,13 @@ content:
     type: string
     region: content
   field_up_sells:
-    weight: 110
+    weight: 9
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  links:
-    weight: 100
-    region: content
-hidden: {  }
+hidden:
+  content_moderation_control: true
+  links: true
