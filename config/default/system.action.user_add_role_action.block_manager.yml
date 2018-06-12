@@ -1,0 +1,14 @@
+uuid: 481c7d73-0998-425f-bc34-cbac94c8a960
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.block_manager
+  module:
+    - user
+id: user_add_role_action.block_manager
+label: 'Add the Block manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: block_manager

@@ -1,0 +1,14 @@
+uuid: 71f08c71-49a7-4867-9190-cf8cb6abeb26
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.vocabulary_manager
+  module:
+    - user
+id: user_remove_role_action.vocabulary_manager
+label: 'Remove the Vocabulary manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: vocabulary_manager

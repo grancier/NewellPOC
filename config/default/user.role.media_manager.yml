@@ -9,7 +9,16 @@ label: 'Media manager'
 weight: 6
 is_admin: null
 permissions:
+  - 'access content overview'
   - 'access media overview'
   - 'access media_browser entity browser pages'
+  - 'access toolbar'
   - 'administer media'
   - 'administer media bundles'
+  - 'create media'
+  - 'edit own video media'
+  - 'update any media'
+  - 'update media'
+  - 'view all media revisions'
+  - 'view media'
+  - 'view the administration theme'
