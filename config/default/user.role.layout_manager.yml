@@ -14,3 +14,4 @@ permissions:
   - 'administer panelizer node landing_page defaults'
   - 'administer panelizer node page defaults'
   - 'administer panelizer node sku defaults'
+  - 'administer panelizer node product defaults'

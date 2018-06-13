@@ -1,0 +1,17 @@
+uuid: db7cf1f6-6951-4d9c-9cbe-d1425153c611
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Product
+type: product
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

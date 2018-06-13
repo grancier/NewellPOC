@@ -1,0 +1,19 @@
+uuid: 05ba9b7f-fad6-4166-bd7e-31a33e480994
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_ecommerce_description
+field_name: field_ecommerce_description
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

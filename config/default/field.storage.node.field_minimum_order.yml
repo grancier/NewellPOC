@@ -1,0 +1,20 @@
+uuid: a1b0dd68-19e1-4f50-a6e7-08066106e6d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_minimum_order
+field_name: field_minimum_order
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
