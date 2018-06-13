@@ -13,7 +13,7 @@ git:
     - 'newellsf@svn-2398.enterprise-g1.hosting.acquia.com:newellsf.git'
 drush:
   aliases:
-    remote: '${project.machine_name}.prod'
+    remote: '${project.machine_name}-ace.dev'
     local: self
     ci: self
   default_alias: '${drush.aliases.local}'

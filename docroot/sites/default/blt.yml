@@ -6,4 +6,4 @@ project:
 drush:
   aliases:
     local: self
-    remote: newell.prod
+    remote: newell-ace.dev
