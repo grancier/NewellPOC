@@ -37,6 +37,7 @@ hidden:
   field_product_code: true
   field_related_documents: true
   field_shippable: true
+  field_skus: true
   field_store_visible: true
   field_title: true
   field_up_sells: true
