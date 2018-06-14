@@ -12,6 +12,7 @@ Feature: Basic Page Bundle Requirements
     And the field "title" is present for the "page" content type
     And the field "field_meta_tags" is present for the "page" content type
     And the "title" field should be required for "page" content
+    And the "body" field should be required for "page" content
 
   Scenario: Roles have needed permissions to act on page content.
     Given that only the following roles have content permissions for the "page" content type:
