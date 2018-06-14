@@ -16,6 +16,7 @@ permissions:
   - 'use editorial transition review'
   - 'use newell_content_workflow transition create_new_draft'
   - 'use newell_content_workflow transition publish'
+  - 'use text format rich_text'
   - 'view any unpublished content'
   - 'view latest version'
   - 'view the administration theme'

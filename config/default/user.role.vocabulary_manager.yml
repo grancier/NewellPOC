@@ -16,4 +16,5 @@ permissions:
   - 'access taxonomy overview'
   - 'access toolbar'
   - 'administer taxonomy'
+  - 'use text format rich_text'
   - 'view the administration theme'

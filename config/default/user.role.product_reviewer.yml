@@ -14,5 +14,6 @@ permissions:
   - 'use editorial transition archive'
   - 'use editorial transition publish'
   - 'use editorial transition review'
+  - 'use text format rich_text'
   - 'view any unpublished content'
   - 'view latest version'
