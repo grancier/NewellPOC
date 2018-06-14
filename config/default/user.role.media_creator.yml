@@ -21,5 +21,6 @@ permissions:
   - 'edit own document media'
   - 'edit own image media'
   - 'edit own video media'
+  - 'use text format rich_text'
   - 'view media'
   - 'view the administration theme'

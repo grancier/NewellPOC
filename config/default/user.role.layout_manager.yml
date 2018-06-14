@@ -13,5 +13,6 @@ permissions:
   - 'administer panelizer'
   - 'administer panelizer node landing_page defaults'
   - 'administer panelizer node page defaults'
-  - 'administer panelizer node sku defaults'
   - 'administer panelizer node product defaults'
+  - 'administer panelizer node sku defaults'
+  - 'use text format rich_text'

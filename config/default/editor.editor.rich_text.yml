@@ -24,6 +24,7 @@ settings:
             - Subscript
             - '-'
             - RemoveFormat
+            - SpecialChar
         -
           name: Linking
           items:
@@ -38,7 +39,6 @@ settings:
           name: Media
           items:
             - Blockquote
-            - Table
             - HorizontalRule
             - media_browser
         -
@@ -50,6 +50,11 @@ settings:
           items:
             - ShowBlocks
             - Source
+        -
+          name: Paste
+          items:
+            - PasteFromWord
+            - PasteText
   plugins:
     language:
       language_list: un

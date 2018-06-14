@@ -9,6 +9,7 @@ is_admin: null
 permissions:
   - 'access content overview'
   - 'access toolbar'
+  - 'create landing_page content'
   - 'delete any landing_page content'
   - 'edit any landing_page content'
   - 'use editorial transition archive'
@@ -16,6 +17,7 @@ permissions:
   - 'use editorial transition review'
   - 'use newell_content_workflow transition create_new_draft'
   - 'use newell_content_workflow transition publish'
+  - 'use text format rich_text'
   - 'view any unpublished content'
   - 'view latest version'
   - 'view the administration theme'
