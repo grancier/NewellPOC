@@ -8,6 +8,7 @@ weight: 8
 is_admin: null
 permissions:
   - 'access content overview'
+  - 'access toolbar'
   - 'create product content'
   - 'edit any product content'
   - 'edit own product content'

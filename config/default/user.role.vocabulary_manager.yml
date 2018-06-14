@@ -12,7 +12,6 @@ label: 'Vocabulary manager'
 weight: 9
 is_admin: null
 permissions:
-  - 'access administration pages'
   - 'access taxonomy overview'
   - 'access toolbar'
   - 'administer taxonomy'

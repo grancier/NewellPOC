@@ -9,6 +9,7 @@ is_admin: null
 permissions:
   - 'access content overview'
   - 'access toolbar'
+  - 'create page content'
   - 'delete any page content'
   - 'edit any page content'
   - 'use editorial transition archive'

@@ -8,6 +8,8 @@ weight: 8
 is_admin: null
 permissions:
   - 'access content overview'
+  - 'access toolbar'
+  - 'create sku content'
   - 'edit any sku content'
   - 'edit own sku content'
   - 'use editorial transition archive'
