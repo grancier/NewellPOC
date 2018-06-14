@@ -15,18 +15,18 @@ Feature: Basic Page Bundle Requirements
 
   Scenario: Roles have needed permissions to act on page content.
     Given that only the following roles have content permissions for the "page" content type:
-      | role                   | permission |
-      | page_creator           | create     |
-      | page_creator           | edit own   |
-      | page_reviewer		   | edit any   |
+      | role          | permission |
+      | page_creator  | create     |
+      | page_creator  | edit own   |
+      | page_reviewer | edit any   |
 
   Scenario: Roles do not have permissions to act on page content.
     Given the following roles do not have content permissions for the "page" content type:
-      | role                  | permission |
-      | page_creator	      | delete     |
-      | page_creator	      | delete own |
-      | page_reviewer		  | delete     |
-      | page_reviewer		  | delete     |
+      | role          | permission |
+      | page_creator  | delete     |
+      | page_creator  | delete own |
+      | page_reviewer | delete     |
+      | page_reviewer | delete own |
 
   Scenario: Confirm access to published content as Anonymous
     Given I visit the last created content
