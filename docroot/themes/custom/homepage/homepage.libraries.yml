@@ -1,0 +1,18 @@
+global-styling:
+  css:
+    theme:
+      public/stylesheets/bootstrap/bootstrap.css: {}
+      public/stylesheets/bootstrap/bootstrap-reboot.css: {}
+      public/stylesheets/bootstrap/bootstrap-grid.css: {}
+      public/stylesheets/app.css: {}
+  js:
+    public/javascripts/app.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+# Examples of Library syntax
+# typekit:
+#   header: true
+#   js:
+#     //use.typekit.net/TYPEKIT_ID.js: { every_page: true }

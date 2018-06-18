@@ -1,0 +1,201 @@
+@import "bootstrap/bootstrap";
+@import "base/typography";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+a {
+  color: #0d345f;
+}
+
+.navbar {
+  background-color: #0e7ad8;
+}
+
+.slick-initialized .slick-slide {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-btn {
+  right: 10px;
+  position: absolute;
+}
+
+.card {
+  min-height: 500px;
+  width: 430px;
+}
+
+.card-body {
+  bottom: 0px;
+  position: absolute;
+}
+
+.card-text {
+  float: left;
+}
+
+.slick-next {
+  top: 220px;
+  &:hover {
+    &:before {
+      color: #7fcaff;
+    }
+  }
+}
+
+.slick-prev {
+  left: -100px;
+  top: 220px;
+  &:hover {
+    &:before {
+      color: #7fcaff;
+    }
+  }
+}
+
+.slick-next, .slick-prev {
+  &:before {
+    font-size: 100px;
+    color: #0e7ad8;
+  }
+}
+
+.product_slide {
+  img {
+    margin: 0 auto;
+  }
+}
+
+
+
+.container {
+  width:98%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: block;
+}
+
+.col {
+  width: 100%;
+  padding:5%;
+  background-color: red;
+  margin-bottom: 5%;
+  border-top: 5px solid red;
+}
+
+
+@media only screen and (min-width: 350px) {
+
+  .col {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    margin:4% 0 5% 3%;
+    padding:0;
+    background-color: transparent;
+    border-top: none;
+    .spacer {
+      position: relative;
+      padding-top: 100%;
+    }
+    &:nth-child(3n+1) {
+      margin-left: 1%;
+    }
+
+  }
+  .circle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: powderblue;
+    color: #333;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -2%;
+    }
+    border: 5px solid darken(powderblue, 5%);
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    &:hover {
+      background-color: #205880;
+      border: 5px solid darken(#205880, 10%);
+      color: #fff;
+    }
+  }
+
+
+  .outline {
+    border: 5px solid grey;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .circle {
+    h1 {
+      font-size: 0.9em;
+      line-height: 1em;
+
+    }
+    p {
+      font-size: 0.8em;
+      line-height: 1em;
+      color:white;
+      text-align: center;
+    }
+    a {
+      color: inherit;
+    }
+    &>p, &>h1, &>.wrapcontent {
+      display: inline-block;
+      vertical-align: middle;
+      &>p, &>h1 {
+        display:block;
+      }
+    }
+  }
+
+
+}
+@media only screen and (min-width: 481px) {
+  .circle {
+    h1 {
+      font-size: 1.2em;
+      line-height: 1em;
+    }
+    p {
+      font-size: 1em;
+      line-height: 1em;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .circle {
+    h1 {
+      font-size: 1.6em;
+      line-height: 1em;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1em;
+    }
+  }
+}

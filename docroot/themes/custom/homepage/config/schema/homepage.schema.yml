@@ -1,0 +1,5 @@
+# Schema for the configuration files of the homepage theme.
+
+homepage.settings:
+  type: theme_settings
+  label: 'homepage settings'

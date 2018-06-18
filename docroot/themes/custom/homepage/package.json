@@ -1,0 +1,24 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Drupal Homepage Prototype Theme",
+  "main": "gulpfile.js/index.js",
+  "author": "Gary Rancier",
+  "license": "MIT",
+  "dependencies": {
+    "blendid": "^4.4.3",
+    "jquery": "^3.3.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-slick": "^0.23.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-preset-react-app": "^3.1.1",
+    "babel-runtime": "^6.26.0",
+    "bootstrap": "^4.1.1",
+    "notify-send": "^0.1.2",
+    "popper.js": "^1.14.3"
+  }
+}
