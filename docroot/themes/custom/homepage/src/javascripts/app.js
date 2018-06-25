@@ -5,6 +5,8 @@ import React from 'react';
 import Slider from "react-slick";
 import ReactDOM from 'react-dom';
 
+var NEWELL_AUTH = 'Bearer 5b79d7b8-b202-44f8-b809-d9fe446fca8e';
+
 class Categories extends React.Component {
   constructor(props) {
     super(props)
@@ -20,7 +22,7 @@ class Categories extends React.Component {
       {
         method: 'GET',
         headers: {
-          'Authorization': 'Bearer b16d246d-4745-498e-a3b2-a0729b4dac7e',
+          'Authorization': NEWELL_AUTH,
           'Accept': 'application/json',
           'Content-Type': 'application/json'
         },
@@ -96,7 +98,7 @@ class SimpleSlider extends React.Component {
       {
         method: 'POST',
         headers: {
-          'Authorization': 'Bearer b16d246d-4745-498e-a3b2-a0729b4dac7e',
+          'Authorization': NEWELL_AUTH,
           'Accept': 'application/json',
           'Content-Type': 'application/json'
         },
