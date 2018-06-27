@@ -4,3 +4,24 @@
  * @file
  * Functions to support theming in the homepage theme.
  */
+
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_preprocess_block().
+ */
+function homepage_blocks_preprocess_block(&$variables) {
+/*
+  if (isset($variables['content']['#entity_reference'])) {
+    if ($variables['elements']['#id'] == 'socialbuttonsblock') {
+      $node = Node::load($variables['content']['#entity_reference']);
+      $variables['content']['#social'] = [
+        'facebook' => $node->get('field_facebook')->getString(),
+        'twitter' => $node->get('field_twitter')->getString(),
+        'instagram' => $node->get('field_instagram')->getString(),
+        'pinterest' => $node->get('field_pinterest')->getString(),
+      ];
+    }
+  }
+  */
+}
